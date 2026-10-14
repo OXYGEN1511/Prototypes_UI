@@ -26,13 +26,13 @@ export const Chatbot = () => {
   const [messages, setMessages] = useState([
     {
       sender: "bot",
-      source: "AROOSHA TECHNOLOGIES AI",
+      source: "NETBEANS SYSTEMS AI",
       textEn:
-        "Namaste! I am the Kalpasar Divyangjan AI Assistant powered by AROOSHA TECHNOLOGIES AI. How can I help you understand the Gulf of Khambhat Development Project today?",
+        "Namaste! I am the Kalpasar Divyangjan AI Assistant powered by NETBEANS SYSTEMS AI. How can I help you understand the Gulf of Khambhat Development Project today?",
       textGu:
-        "નમસ્તે! હું કલ્પસર દિવ્યાંગજન AI સહાયક છું (AROOSHA TECHNOLOGIES AI દ્વારા સંચાલિત). ખંભાતના અખાત વિકાસ યોજના અંગે હું આપને શું માહિતી આપી શકું?",
+        "નમસ્તે! હું કલ્પસર દિવ્યાંગજન AI સહાયક છું (NETBEANS SYSTEMS AI દ્વારા સંચાલિત). ખંભાતના અખાત વિકાસ યોજના અંગે હું આપને શું માહિતી આપી શકું?",
       textHi:
-        "नमस्ते! मैं कल्पसर दिव्यांगजन AI सहायक हूं (AROOSHA TECHNOLOGIES AI द्वारा संचालित)। खंभात की खाड़ी विकास परियोजना के संबंध में मैं आपकी क्या सहायता कर सकता हूं?",
+        "नमस्ते! मैं कल्पसर दिव्यांगजन AI सहायक हूं (NETBEANS SYSTEMS AI द्वारा संचालित)। खंभात की खाड़ी विकास परियोजना के संबंध में मैं आपकी क्या सहायता कर सकता हूं?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -101,7 +101,7 @@ export const Chatbot = () => {
           ...prev,
           {
             sender: "bot",
-            source: result.source || "AROOSHA TECHNOLOGIES AI",
+            source: result.source || "NETBEANS SYSTEMS AI",
             isLive: true,
             textEn: result.reply,
             textGu: result.reply,
@@ -254,7 +254,7 @@ export const Chatbot = () => {
             </div>
             <div className="text-[10px] text-cyan-300 flex items-center gap-1 font-mono">
               <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full inline-block"></span>
-              Live AROOSHA TECHNOLOGIES AI
+              Live NETBEANS SYSTEMS AI
             </div>
           </div>
         </button>
@@ -354,7 +354,7 @@ export const Chatbot = () => {
                       <div className="mt-2 pt-1 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400">
                         <span className="flex items-center gap-1 font-mono text-[10px] text-emerald-700 font-semibold">
                           <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
-                          {m.source || "AROOSHA TECHNOLOGIES AI"}
+                          {m.source || "NETBEANS SYSTEMS AI"}
                         </span>
                         <button
                           onClick={() => speakText(text)}
@@ -379,7 +379,7 @@ export const Chatbot = () => {
                 </div>
                 <div className="bg-white text-slate-600 border border-slate-200 rounded-2xl rounded-tl-none px-4 py-2.5 text-xs flex items-center gap-2 shadow-sm">
                   <Loader2 className="w-3.5 h-3.5 animate-spin text-kalpasar-cyan" />
-                  <span>AROOSHA TECHNOLOGIES AI is thinking...</span>
+                  <span>NETBEANS SYSTEMS AI is thinking...</span>
                 </div>
               </div>
             )}

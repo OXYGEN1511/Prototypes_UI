@@ -80,7 +80,7 @@ export const TechnicalCapabilities = () => {
     },
     {
       method: "POST",
-      path: "/api/chat (Live AROOSHA TECHNOLOGIES AI)",
+      path: "/api/chat (Live NETBEANS SYSTEMS AI)",
       description:
         "Live AI Chatbot integration via https://shreeram.tail902341.ts.net/api/chat with Bearer authentication.",
       sampleResponse: {
@@ -89,9 +89,9 @@ export const TechnicalCapabilities = () => {
           "Bearer nsai_cd3fa04e25ed4ef485d11242903c7119970fc325664e408da0d8a016db57296c",
         payload: { message: "hi" },
         response: {
-          name: "AROOSHA TECHNOLOGIES AI",
+          name: "NETBEANS SYSTEMS AI",
           response:
-            "Hi! I am AROOSHA TECHNOLOGIES AI, created by AROOSHA TECHNOLOGIES AI. Let me know how can I assist you!",
+            "Hi! I am NETBEANS SYSTEMS AI, created by NETBEANS SYSTEMS AI. Let me know how can I assist you!",
         },
         statusCode: 200,
         status: "LIVE_CONNECTED",

@@ -26,7 +26,7 @@ export const sendChatMessage = async (userMessage) => {
       const data = await res.json();
       return {
         success: true,
-        source: data.name || "Live AROOSHA TECHNOLOGIES AI",
+        source: data.name || "Live NETBEANS SYSTEMS AI",
         reply: data.response || data.message || JSON.stringify(data),
       };
     }
@@ -46,7 +46,7 @@ export const sendChatMessage = async (userMessage) => {
       const data = await res.json();
       return {
         success: true,
-        source: data.name || "Live AROOSHA TECHNOLOGIES AI",
+        source: data.name || "Live NETBEANS SYSTEMS AI",
         reply: data.response || data.message || JSON.stringify(data),
       };
     }
